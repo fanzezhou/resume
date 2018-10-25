@@ -1,0 +1,173 @@
+.all{
+    width: 100%;
+    height: 608px;
+    background: rgb(27,43,59)
+}
+.topp{
+    width: 1800px;
+    height: 58px;
+    margin: auto;
+}
+.top{
+    width: 1200px;
+    height: 58px;
+    background:  rgb(27,43,59);
+    margin: auto;
+}
+.top>*{
+    float: left;
+}
+.top>span{
+    line-height: 58px;
+    font-size: 24px;
+    color: #eeb81a;
+    margin-left: 20px;
+}
+#s2{
+    float: right;
+    color: rgb(200,200,206);
+    position: relative;
+}
+#img1{
+    display: none;
+    position: absolute;
+    top: 38px;
+    right: 0;
+
+}
+.bodyin{
+    background-image:url(../img/login/login_bg.jpg) ;
+    width: 1800px;
+    height: 550px;
+    margin: auto;
+    background-repeat:inherit;
+}
+.bodyinner{
+    width: 1200px;
+    height: 550px;
+    margin: auto;
+    position: relative
+}
+.login{
+    width: 360px;
+    height: 370px;
+    position: absolute;
+    top:90px;
+    right:0;
+    background:#fff;
+}
+.login1{
+    width:360px;
+    height: 58px;
+    background: #fff;
+}
+.login1>div{
+    width: 178px;
+    height: 48px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    text-align: center;
+    color: black;
+    line-height: 48px;
+    background: #fff;
+    border: 1px solid gainsboro;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.login1>div:nth-child(2){
+    background: rgb(243,244,246);
+    color: gray;
+}
+li>input{
+    width: 273px;
+    height: 18px;
+    font-size: 14px;
+    border: 1px solid rgb(147,147,158) ;
+    padding: 9px 10px 9px 35px;
+    color: rgb(147,147,158)
+}
+#dd1,#dd2{
+    
+    width:108px;
+    height: 36px;
+    border: 1px solid rgb(255,222,116);
+    background-color: rgb(255,250,234);
+    padding: 0;
+    margin-left: 10px;
+    display:none; 
+    float: right;
+    color: rgb(250,190,0);
+    font-size:14px;
+    text-decoration: none;
+    line-height: 36px;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    width: 320px;
+    height: 124px;
+    padding: 0 20px;
+}
+ul>li{
+    margin-bottom: 10px;
+}
+#in3{
+    width: 118px;
+    height: 38px;
+}
+.check{
+    width: 18px;
+}
+.a1{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.a2{
+    text-decoration: none;
+    font-size: 18px;
+    float: right;
+    color: rgb(106,176,255);
+   
+}
+.a2:hover{
+    color:rgb(250,190,0);
+}
+.btn1{
+    width: 320px;
+    height: 50px;
+    color: #fff;
+    background: rgb(250,190,0);
+    border: 0;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn2{
+    width: 320px;
+    height: 50px;
+    background: rgb(250,251,252);
+    font-size: 14px;
+    border:1px solid rgb(233,235,238);
+    box-shadow: 0;
+    cursor: pointer;
+    color: rgb(96,96,100)
+}
+.btn2>a{
+    color:rgb(106,176,255);
+    text-decoration: none;
+}
+.btn2>a:hover{
+    color:rgb(250,190,0);
+}
+#in1,#in2{
+    position: relative;
+}
+.loginimg1,.loginimg2{
+    position: absolute;
+    font-size: 24px!important;
+    left: 5px;
+    top: 7px;
+}

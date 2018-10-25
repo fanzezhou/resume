@@ -1,0 +1,503 @@
+main{
+    width: 100%;
+}
+.main .instro{
+    width:1200px;
+    height: 58px;
+    line-height: 58px;
+    margin: auto;
+    border-bottom: 1px solid rgb(27,43,59);
+    background: rgb(27,43,59);
+    border-radius: 10px;
+}
+.main .instro>ul>{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.main .instro>ul>li{
+    float: left;
+    width: 300px;
+    height: 58px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.main .instro>ul>li>span{
+    color: rgb(255,255,255);
+    font-size: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.main .products{
+    width: 1200px;
+    height: 306px;
+    margin: auto;
+    position: relative;
+
+}
+.main .products div{
+    float: left;
+}
+.main.mg{
+    width: 543.75px;
+    height: 304px;
+    border: 1px dotted rgb(30,30,30);
+    position: relative;
+    border-radius: 10px;
+}
+.main #mask{
+    display: none;
+    width: 150px;
+    height: 150px;
+    background: rgba(240,190,0,.5);
+    position: absolute;
+}
+.main #smask{
+    width:543.75px; 
+    height: 304px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.main .sg>ul{
+    height: 300px;
+}
+.main .mg>ul>li>img{
+    width: 543.75px;
+    height: 304px;
+}
+.main .sg{
+    padding-left: 15px;
+    box-sizing: border-box;
+    width: 120px;
+    height: 70px;
+}
+.main .sg>ul>li{
+    border:1px dotted rgb(30,30,30);
+    border-radius:10px;  
+    height: 74px;
+    width: 134.13px;
+}
+
+.main .sg>ul li>img{
+    height: 74px;
+}
+.main ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main .lg{
+    display: none;
+    width: 304px;
+    height: 304px;
+    border: 1px dotted rgb(27,43,59);
+    position: absolute;
+    left: 543.75px;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size:1087.50px 616px;
+    background-image: url("../img/detail/car-red-face.jpg")
+}
+.main .easy{
+    width: 1200px;
+    height: 58px;
+    margin: auto;
+}
+.main .easyin{
+    width: 700px;
+    height: 58px;
+}
+.main .easyin>*{
+    float: left;
+}
+.main .name{
+    display:block;
+    width: 300px;
+    height: 58px;
+    font-size: 20px;
+    line-height: 58px;
+    text-align: center;
+}
+.main .name>span{
+    display: block;
+    float: left;
+    margin-left: 20px;
+    line-height: 58px;
+    font-size: 40px;
+}
+.main .easyin>button{
+    width: 100px;
+    height: 40px;
+    border: 0;
+    border-radius:5px;
+    background: rgb(27,43,59);
+    color: rgb(240,190,0);
+    font-size: 18px;
+    padding: 0;
+    margin: 9px 10px 9px 280px;
+    cursor: pointer;
+}
+.main .easyin>button:hover{
+    color: rgb(27,43,59)    ;
+    background: rgb(240,190,0);
+}
+.main .detail{
+    width: 400px;
+    height: 304px;
+    float: right!important;
+}
+.main .next{
+    width: 1200px;
+    margin: auto;
+}
+.main #car360{
+    margin: auto;
+    width: 650px;
+    height: 350px;
+    background-size: 650px 350px;
+    background: url("../img/detail/red/1.png")
+}
+.main detail360{
+    width: 749.96px;
+    height: 58px;
+    margin: auto;
+    margin-top: 20px; 
+}
+.main .detail360>ul{
+    list-style: none;
+    padding: 0 129px;
+    width: 492px;
+    height: 94px;
+    margin: auto;
+    margin-top: 20px;
+}
+.main .detail360>ul>li>div{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.main .detail360>ul>li>span{
+    color: rgb(67,67,67);
+    font-size: 14px;
+    display: block;
+    width: 58px;
+    height: 58px;
+}
+.main .detail360>ul>li{
+    float: left;
+    width: 36px;
+    height: 36px;
+    margin: 0 15px;
+    padding: 0;
+}
+.main .bai{
+    border: 1px solid black;
+    background: rgb(255,255,255);
+    margin: auto;
+}
+.main .hei{
+    background: rgb(0,0,0);
+    margin: auto;
+}
+.main .yin{
+    background: rgb(199,199,199);
+    margin: auto;
+}
+.main .hui{
+    background: rgb(201,198,171);
+    margin: auto;
+}
+.main .hong{
+    background: rgb(118,10,0);
+    margin: auto;
+}
+.main .lan{
+    background: rgb(2,58,88);
+    margin: auto;
+}
+.main .zong{
+    background: rgb(119,83,58);
+    margin: auto;
+}
+.main .p1,.main .p2,.main .p3{
+    width: 1200px;
+    height: 1128px;
+    margin: auto;
+    margin-bottom:60px;
+    border-top: 1px solid white;
+}
+.main .p1>h3, .main .p2>h3,.main .p3>h3{
+    width: 1200px;
+    height: 33.333px;
+    text-align: center;
+    margin: 24px 0;
+    font-size: 30px;
+    padding-bottom:20px;
+    border-bottom: 1px solid black; 
+}
+.main .p1>p,.main .p2>p,.main .p3>p{
+    width: 1200px;
+    height: 26.667px;
+    text-align: center;
+    margin: 24px 0;
+    font-size: 24px;
+    color: rgb(67,67,67);
+}
+.main .p1>.bigimage,.main .p2>.bigimage,.main .p3>.bigimage{
+    width: 1200px;
+    height: 415px;
+    background-position: 1200px 415px;
+    margin-bottom: 40px;
+}
+.main .p1>.bigimage{
+    background: url("../img/waiguan/f-1.jpg");
+}
+.main .p2>.bigimage{
+    background: url("../img/detail/p2/f-2.jpg");
+}
+.main .p3>.bigimage{
+    background: url("../img/detail/p3/f-3.jpg");
+}
+.main .lunbo>div{
+    float: left;
+}
+.main .lunbo1{
+    width: 775px;
+    height: 520px;
+    position: relative;
+}
+.main .smask{
+    width: 775px;
+    height: 520px;
+    opacity: 0;
+}
+.main .lunbo1>a{
+    display: block;
+    width: 50px;
+    height: 70px;
+    background: rgba(0,0,0,.5);
+    text-align: center;
+    float: left;
+    text-decoration: none;
+}
+
+.main .lunbo1 span{
+    display: block;
+    width: 50px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+.main .left{
+    position: absolute;
+    left: 0;
+    top:225px;
+}
+.main .right{
+    position: absolute;
+    left: 725px;
+    top:225px;
+}
+.main.lunbo1 span:hover{
+    color: rgb(240,190,0)
+}
+.main .lunbo_footer{
+    width: 775px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.7);
+    text-align: center;
+    line-height: 50px;
+}
+.main .lunbo_footer>ul{
+    text-decoration: none;
+    margin: 20px 297.5px;
+}
+.main .lunbo_footer>ul>li{
+    float: left;
+    padding: 0 10px;
+}
+.main .lunbo_footer>ul>li>div{
+    width: 10px;
+    height: 10px;
+    background: rgb(178,178,180);
+    border-radius: 50%;
+}
+.main .active>div{
+    background:black!important;
+    border: 1px solid rgb(240,190,0);
+    box-sizing: border-box;
+}
+.main .lunbodetail{
+    width: 425px;
+    height: 520px;
+    position: relative;
+}
+.main .fram{
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 520px;
+    opacity: 0;
+    color: rgb(67,67,67);
+}
+.main .box{
+    display: inline-block!important;
+    line-height: normal;
+    padding: 0 20px 0 24px;
+    vertical-align: middle;
+    clear: both;
+}
+.main .showin{
+    opacity: 1!important;
+}
+.main .detail_footer{
+    width: 1200px;
+    height: 538.29px;
+    margin: auto;
+}
+.main .detail_footer>h3{
+    text-align: center;
+    margin: 24px 0;
+    padding: 0;
+    padding-bottom: 20px;
+    font-size: 30px;
+    border-bottom: 1px solid black;
+}
+.main .detail_footer>ul,.detail_footer>li{
+    margin: 0;
+    padding: 0;
+}
+.main .detail_footer>ul{
+    list-style: none;
+}
+.main .detail_footer>ul>li{
+    width: 400px;
+    height: 218px;
+    float: left;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+.main .detail_footer>ul>li>img{
+    width: 400px;
+    height: 218px;
+    transition: all 1s linear;
+}
+.main .detail_footer>ul>li:hover>img{
+    transform: scale(1.1)
+}
+.main .detail_footer>ul>li:hover>span.last>b{
+    border-bottom: 2px solid rgb(240,190,0); 
+    color: #fff;
+}
+.main .detail_footer>ul>li:hover>div{
+    background: rgba(0,0,0,.2)
+}
+.main .detail_footer>ul>li>span{
+    position: absolute;
+    left: 185px;
+    top: 94px;
+    color: #fff;
+    font-size: 50px;
+    z-index: 2;
+}
+.main .detail_footer>ul>li>span.last{
+    font-size: 14px;
+    color: rgb(240,190,0);
+}
+.main .detail_footer>ul>li>span.last>b{
+    display: block;
+    width: 64px;
+    height: 24px;
+    text-align: center;
+}
+.main .last~div{
+    width: 400px;
+    height: 218px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.6)
+}
+.main .detail>ul{
+    margin-top:-20px; 
+}
+.main .detail>ul>li{
+    margin-bottom: 15px;
+    border-bottom: 1px dotted rgb(91,156,222);
+    padding-bottom:2px ;
+}
+.main .detail>ul>li>span{
+    font-size :30px;
+    color: rgb(91,156,222);
+}
+.main .detail>ul>li>.title{
+    font-size: 26px;
+    color: black;
+    font-weight: bold;
+}
+.main .detail>ul>li>span>span,.main .detail>ul>li>span>span>a{
+    font-size:18px; 
+    color: black;
+    padding-left:20px; 
+    text-decoration: none;
+}
+.main .fixeall>ul{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin:0 20px 20px 0;
+    z-index: 3;
+}
+.main .fixeall>ul>li{
+    display: block;
+    width:50px;
+    height: 50px;
+    background: rgb(27,43,59); 
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+}
+.main .fixeall>ul>li>span{
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.main .fixeall>ul>li>img{
+    position: absolute;
+    left: -200px;
+    top: -120px;
+    display: none;
+}
+.main .fixeall>ul>li>span>a{
+    color: #fff;
+    text-decoration: none;
+}
+.main .fixeall>ul>li>span:hover,.main .fixeall>ul>li>span>a:hover{
+    color: rgb(240,190,0);
+}
+.main .fixeall>ul>li>div{
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    left:-160px;
+    top: 5px;
+    background:rgb(27,43,59);
+    display: none;
+}
+.main .fixeall>ul>li>div>span{
+    color: rgb(240,190,0);
+    font-size:16px;
+}
+.main .hiden{
+    display: none!important;
+}

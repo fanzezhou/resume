@@ -1,0 +1,78 @@
+.th{
+    width: 100%;
+    height: 58px;
+    background: rgb(27,43,59);
+}
+#header .tlength{
+    text-align: center;
+    width: 1400px;
+    height: 58px;
+    margin: auto;
+    position: relative;
+}
+
+#header .hd>div,ul,ul>li,div>div{
+    float: left;
+}
+#header ul{
+    margin: 0;
+    margin-left: 120px;
+    padding: 0;
+}
+#header ul>Li{
+    list-style: none;
+}
+#header a{
+    color: #fff;
+    display:block;
+    line-height: 58px;
+    font-size: 14px;
+    padding: 0 9px;
+    text-decoration: none;
+}
+#header a:hover{
+    color: rgb(250,190,0);
+    text-decoration-line: underline;
+}
+#header .tlength>div{
+    width:200px;
+    height: 58px;
+}
+#header .tlength>div>a{
+    float: left;
+    font-size: 24px;
+    color: rgb(250,190,0);
+    font-weight: bold;
+    font-family: "黑体";
+    text-decoration: none;
+}
+#header .tlength>div>img{
+    height: 58px;
+}
+#header li:first-child>a{
+    color:rgb(250,190,0); 
+}
+#header .tel>span{
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    line-height: 58px;
+}
+#header .login1{
+    padding-left:50px;
+}
+#header #header .login1>a{
+    color: rgb(250,190,0); 
+}
+#header .login2{
+    color: rgb(200,200,206)
+}
+#header .tel{
+    float: right;
+}
+#header .hidentel{
+    position: absolute;
+    top: 58px;
+    right: 0;
+    display:none;
+}
